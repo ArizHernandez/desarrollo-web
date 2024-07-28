@@ -1,4 +1,5 @@
-# Repositorio en donde se subira todas las tareas de la clase de desarrollo web
+## Enlace del Sitio Web Publicado
+Puedes visitar el sitio web en el siguiente enlace: [Enlace del Sitio Web](https://super-haupia-a69671.netlify.app/)
 
-- Tarea #1 ``/first-homework``
-- Hoja de trabajo #1 ``/worksheet-1``
+## Desarrollador
+Este proyecto fue desarrollado por Ariz Hernández.

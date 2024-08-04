@@ -20,9 +20,10 @@ body,
       rgba(var(--dark-primary-color), 0.4)
     ),
     url("./source/images/image4.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position-y: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,6 +68,8 @@ h2 {
 .information .images .image {
   width: 220px;
   height: 130px;
+  overflow: hidden;
+  border-radius: 3px;
 }
 
 .information .images .image {

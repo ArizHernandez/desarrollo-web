@@ -19,7 +19,7 @@ body,
       rgba(var(--primary-color), 0.1),
       rgba(var(--dark-primary-color), 0.4)
     ),
-    url("./source/images/image4.jpg");
+    url("../../source/images/image-carrousel-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -43,9 +43,8 @@ body,
   padding-inline: 50px;
 }
 
-h2 {
+h2, h3 {
   color: rgba(var(--dark-primary-color));
-  font-size: 2rem;
   text-align: center;
   margin-bottom: 10px;
 }

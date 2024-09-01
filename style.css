@@ -128,6 +128,21 @@ h2 {
   margin-top: 40px;
 }
 
+.comments-list { 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.comment { 
+  display: flex;
+  flex-direction: column;
+}
+
+.comment > figcaption { 
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 768px) {
   .title { 
     text-align: center;

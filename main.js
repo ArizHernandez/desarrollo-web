@@ -10,13 +10,15 @@ const usersMock = [
   },
 ];
 
-// ROUTES
+app.use(express.json());
 
+// ROUTES
 app.get("/users", (_, res) => {
   return res.json(usersMock);
 });
 
 app.post("/users", (req, res) => {
+  console.log(req);
   const { dpi, name, email, password } = req.body;
 
   const existsDPI = usersMock.find((user) => user.dpi === dpi);

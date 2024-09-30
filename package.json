@@ -1,0 +1,17 @@
+{
+  "name": "hoja-de-trabajo-6",
+  "version": "1.0.0",
+  "description": "Este proyecto es una página web diseñada para promocionar una excursión a las impresionantes Cataratas del Iguazú, ubicadas en la frontera entre Argentina y Brasil. La página proporciona información detallada sobre el lugar, incluye una galería de imágenes, una tabla de itinerarios y una lista de actividades disponibles para los visitantes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
+}
